@@ -1,0 +1,172 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.left {
+  font-size: 1.5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(2, 2, 50);
+  position: static;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0px 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(82, 142, 203);
+  font-size: 1.01rem;
+}
+main hr {
+  border: 0;
+  height: 1.2px;
+  background: rgb(47, 111, 138);
+  margin: 17px 84px;
+}
+
+#firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 3rem;
+}
+
+.rightSection img {
+  width: 80%;
+  margin: 50px 0;
+}
+.purple {
+  color: rgb(22, 98, 197);
+}
+
+
+
+#SkillsSection {
+  max-width: 80vw;
+  margin: auto;
+ 
+}
+.skill_text{
+  text-align: center;
+}
+#SkillsSection h1 {
+  font-size: 1.9rem;
+  color: rgb(21, 125, 210);
+
+}
+
+
+.box-1 {
+  border: 2px solid rgb(6, 167, 236);
+  height: 480px;
+  width: 80vw;
+  font-size: 1.2rem;
+}
+.box-2 {
+  border: 2px solid rgb(19, 135, 38);
+  height: 480px;
+  width: 80vw;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.box-1 ul {
+  margin: 15px 25px;
+  padding: 20px 20px 20px 20px;
+}
+
+
+#AboutSection {
+  margin: 25px 125px;
+  font-size: 1.2rem;
+  color: rgb(227, 134, 13);
+  text-align: center;
+}
+#ProjectSection {
+  margin: 40px 125px;
+  font-size: 1.2rem;
+  color: rgb(224, 13, 80);
+  text-align: center;
+}
+.box-3{
+  border: 2px solid rgb(19, 135, 38);
+  height: 480px;
+  width: 80vw;
+  font-size: 1.2rem;
+  color: white;
+}
+.resume_btn{
+  margin: 40px 500px;
+  padding: 10px 10px;
+  border: 5px solid rgb(50, 166, 220);
+  font-family:"Poppins", sans-serif;
+  font-weight: bold;
+}
+.resume_btn:hover{
+  margin: 40px 500px;
+  padding: 10px 10px;
+  background-color: rgb(41, 93, 170);
+  box-shadow: 2px 3px rgb(232, 185, 92);
+}
+.caption{
+text-align: center;
+font-size: 2rem;
+}
+#ContactSection {
+  margin: 25px 125px;
+  font-size: 1.2rem;
+  color: rgb(227, 134, 13);
+  text-decoration: solid;
+  font-family:"Poppins", sans-serif ;
+  letter-spacing: normal;
+  line-height: 2rem;
+  text-align: center;
+
+}
+#ContactSection div i a{
+ color: aqua;
+}
+.box-5{
+ padding-top: 40px;
+  border: 2px solid rgb(19, 135, 38);
+  height: 200px;
+  width: 80vw;
+  font-size: 1.2rem;
+  color: white;
+}
+#footer{
+  font-family:"Poppins", sans-serif ;
+  letter-spacing: normal;
+  line-height: 2rem;
+  text-align: center;
+}
+.skillimg{
+position: relative;
+bottom: 320px;
+left: 550px;
+
+}
